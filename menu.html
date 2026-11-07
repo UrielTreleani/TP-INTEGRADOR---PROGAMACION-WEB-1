@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú | Benvenutti</title>
+    <meta name="description" content="Menú de Benvenutti: viandas, postres, panes y ensaladas de fruta." />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html">
+          <img class="header__logo" src="img/logo-wordmark.webp" alt="Benvenutti, ir al inicio" />
+        </a>
+        <nav class="nav" aria-label="Principal">
+          <a class="nav__link" href="index.html">Inicio</a>
+          <a class="nav__link nav__link--active" href="menu.html" aria-current="page">Menú</a>
+          <a class="nav__link" href="index.html#contacto">Contacto</a>
+          <a class="nav__link" href="carrito.html"><i class="bi bi-bag" aria-hidden="true"></i> Carrito</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section__title">Nuestro menú</h1>
+          <p class="section__subtitle">Panes, viandas, postres y ensaladas de fruta.</p>
+          <div class="product-grid">
+          <article class="product">
+            <img class="product__image" src="img/breaded-cutlet-with-fries-and-fried-egg.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Milanesa con papas fritas y huevo frito</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 6.000</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Milanesa con papas fritas y huevo frito al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/chocotorta.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Chocotortas</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 3.000</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Chocotortas al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/fruit-salad.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Ensalada de frutas</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 2.500</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Ensalada de frutas al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/fruit-salad-diet.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Ensalada de frutas dietética</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 2.500</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Ensalada de frutas dietética al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/lasagna.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Lasagna</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 6.500</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Lasagna al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/loaf-cake.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Budines</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 8.000</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Budines al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/meat-with-rice.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">Carne con arroz agridulce</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 6.500</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar Carne con arroz agridulce al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img class="product__image" src="img/savory-bread.webp" alt="" loading="lazy" />
+            <div class="product__body">
+              <h2 class="product__name">1/4 de pancitos saborizados</h2>
+              <div class="product__footer">
+                <span class="product__price">$ 2.000</span>
+                <a class="button button--outline button--small" href="carrito.html" aria-label="Agregar 1/4 de pancitos saborizados al carrito">Agregar</a>
+              </div>
+            </div>
+          </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--paper">
+        <div class="container">
+          <h2 class="section__title">Lista de precios</h2>
+          <p class="section__subtitle">Todos nuestros productos en un solo lugar.</p>
+          <div class="table-wrapper">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="table__heading" scope="col">Producto</th>
+                  <th class="table__heading" scope="col">Categoría</th>
+                  <th class="table__heading table__heading--price" scope="col">Precio</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr class="table__row">
+                <td class="table__cell">Milanesa con papas fritas y huevo frito</td>
+                <td class="table__cell">Vianda</td>
+                <td class="table__cell table__cell--price">$ 6.000</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Chocotortas</td>
+                <td class="table__cell">Postre</td>
+                <td class="table__cell table__cell--price">$ 3.000</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Ensalada de frutas</td>
+                <td class="table__cell">Ensalada de fruta</td>
+                <td class="table__cell table__cell--price">$ 2.500</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Ensalada de frutas dietética</td>
+                <td class="table__cell">Ensalada de fruta</td>
+                <td class="table__cell table__cell--price">$ 2.500</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Lasagna</td>
+                <td class="table__cell">Vianda</td>
+                <td class="table__cell table__cell--price">$ 6.500</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Budines</td>
+                <td class="table__cell">Postre</td>
+                <td class="table__cell table__cell--price">$ 8.000</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Carne con arroz agridulce</td>
+                <td class="table__cell">Vianda</td>
+                <td class="table__cell table__cell--price">$ 6.500</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">1/4 de pancitos saborizados</td>
+                <td class="table__cell">Pan</td>
+                <td class="table__cell table__cell--price">$ 2.000</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <img class="footer__logo" src="img/logo-wordmark-claro.webp" alt="Benvenutti" />
+          <p class="footer__tagline">Audaces fortuna iuvat</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Zonas de entrega</h3>
+          <p class="footer__text">Merlo</p>
+          <p class="footer__text">San Antonio de Padua</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <a class="footer__link" href="https://wa.me/5491122634984" target="_blank" rel="noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i> +54 9 11 2263 4984</a>
+          <a class="footer__link" href="mailto:benvenutti3010@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> benvenutti3010@gmail.com</a>
+          <p class="footer__text">Lunes a domingo, de 10 a 20 h</p>
+        </div>
+      </div>
+      <div class="container footer__legal">
+        <small>© 2026 Benvenutti</small>
+      </div>
+    </footer>
+  </body>
+</html>

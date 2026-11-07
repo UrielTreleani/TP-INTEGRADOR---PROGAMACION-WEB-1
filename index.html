@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benvenutti | Panes, viandas y postres</title>
+    <meta name="description" content="Benvenutti: panes, viandas, postres y ensaladas de fruta con entrega en Merlo y San Antonio de Padua." />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html">
+          <img class="header__logo" src="img/logo-wordmark.webp" alt="Benvenutti, ir al inicio" />
+        </a>
+        <nav class="nav" aria-label="Principal">
+          <a class="nav__link nav__link--active" href="index.html" aria-current="page">Inicio</a>
+          <a class="nav__link" href="menu.html">Menú</a>
+          <a class="nav__link" href="index.html#contacto">Contacto</a>
+          <a class="nav__link" href="carrito.html"><i class="bi bi-bag" aria-hidden="true"></i> Carrito</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div>
+            <h1 class="hero__title">Sabores que te hacen sonreír</h1>
+            <p class="hero__text">Helados, ensaladas de fruta, panes caseros y mucho más.</p>
+            <div class="hero__actions">
+              <a class="button button--light" href="menu.html">Ver el menú</a>
+              <a class="button button--ghost" href="https://wa.me/5491122634984?text=Hola%2C%20quisiera%20hacer%20un%20pedido" target="_blank" rel="noreferrer">Pedir por WhatsApp</a>
+            </div>
+          </div>
+          <img class="hero__image" src="img/hero-img.webp" alt="Budín individual con cobertura blanca y chocolate rallado" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">¿Qué estás buscando?</h2>
+          <p class="section__subtitle">Elegí una categoría y mirá todo lo que preparamos.</p>
+          <div class="category-grid">
+            <a class="category" href="menu.html">
+              <i class="category__icon bi bi-basket" aria-hidden="true"></i>
+              <span class="category__name">Panes</span>
+            </a>
+            <a class="category" href="menu.html">
+              <i class="category__icon bi bi-egg-fried" aria-hidden="true"></i>
+              <span class="category__name">Viandas</span>
+            </a>
+            <a class="category" href="menu.html">
+              <i class="category__icon bi bi-cake2" aria-hidden="true"></i>
+              <span class="category__name">Postres</span>
+            </a>
+            <a class="category" href="menu.html">
+              <i class="category__icon bi bi-apple" aria-hidden="true"></i>
+              <span class="category__name">Ensaladas de fruta</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--paper">
+        <div class="container about">
+          <img class="about__logo" src="img/logo.webp" alt="Benvenutti: panes, helados, almuerzos y postres" />
+          <div class="about__content">
+            <h2 class="section__title">Nosotros</h2>
+            <p class="about__text">
+              Somos un negocio que hace todo con amor y cree que no hay mayor acto de amor que servirle
+              comida al otro. Por eso, en Benvenutti trabajamos siempre con primera calidad, para traer a
+              tu mesa lo mejor de la gastronomía.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacto">
+        <div class="container">
+          <h2 class="section__title">Contacto</h2>
+          <p class="section__subtitle">Escribinos y te respondemos a la brevedad.</p>
+          <form class="form" id="formulario-contacto" action="#" method="post">
+            <div class="form__group">
+              <label class="form__label" for="nombre">Nombre</label>
+              <input class="form__input" type="text" id="nombre" name="nombre" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Correo electrónico</label>
+              <input class="form__input" type="email" id="email" name="email" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="mensaje">Mensaje</label>
+              <textarea class="form__input form__input--textarea" id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button class="button form__button" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <img class="footer__logo" src="img/logo-wordmark-claro.webp" alt="Benvenutti" />
+          <p class="footer__tagline">Audaces fortuna iuvat</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Zonas de entrega</h3>
+          <p class="footer__text">Merlo</p>
+          <p class="footer__text">San Antonio de Padua</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <a class="footer__link" href="https://wa.me/5491122634984" target="_blank" rel="noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i> +54 9 11 2263 4984</a>
+          <a class="footer__link" href="mailto:benvenutti3010@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> benvenutti3010@gmail.com</a>
+          <p class="footer__text">Lunes a domingo, de 10 a 20 h</p>
+        </div>
+      </div>
+      <div class="container footer__legal">
+        <small>© 2026 Benvenutti</small>
+      </div>
+    </footer>
+  </body>
+</html>

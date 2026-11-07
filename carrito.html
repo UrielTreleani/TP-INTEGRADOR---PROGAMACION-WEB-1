@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito | Benvenutti</title>
+    <meta name="description" content="Revisá tu pedido de Benvenutti antes de finalizarlo." />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a href="index.html">
+          <img class="header__logo" src="img/logo-wordmark.webp" alt="Benvenutti, ir al inicio" />
+        </a>
+        <nav class="nav" aria-label="Principal">
+          <a class="nav__link" href="index.html">Inicio</a>
+          <a class="nav__link" href="menu.html">Menú</a>
+          <a class="nav__link" href="index.html#contacto">Contacto</a>
+          <a class="nav__link nav__link--active" href="carrito.html" aria-current="page"><i class="bi bi-bag" aria-hidden="true"></i> Carrito</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section__title">Tu carrito</h1>
+          <p class="section__subtitle">Revisá tu pedido antes de finalizarlo.</p>
+          <div class="cart">
+            <ul class="cart__list">
+            <li class="cart-item">
+              <img class="cart-item__image" src="img/lasagna.webp" alt="" />
+              <div>
+                <h2 class="cart-item__name">Lasagna</h2>
+                <p class="cart-item__quantity">Cantidad: 1</p>
+              </div>
+              <span class="cart-item__price">$ 6.500</span>
+              <button class="cart-item__remove" type="button" aria-label="Eliminar Lasagna"><i class="bi bi-trash" aria-hidden="true"></i></button>
+            </li>
+            <li class="cart-item">
+              <img class="cart-item__image" src="img/chocotorta.webp" alt="" />
+              <div>
+                <h2 class="cart-item__name">Chocotortas</h2>
+                <p class="cart-item__quantity">Cantidad: 2</p>
+              </div>
+              <span class="cart-item__price">$ 6.000</span>
+              <button class="cart-item__remove" type="button" aria-label="Eliminar Chocotortas"><i class="bi bi-trash" aria-hidden="true"></i></button>
+            </li>
+            <li class="cart-item">
+              <img class="cart-item__image" src="img/fruit-salad.webp" alt="" />
+              <div>
+                <h2 class="cart-item__name">Ensalada de frutas</h2>
+                <p class="cart-item__quantity">Cantidad: 1</p>
+              </div>
+              <span class="cart-item__price">$ 2.500</span>
+              <button class="cart-item__remove" type="button" aria-label="Eliminar Ensalada de frutas"><i class="bi bi-trash" aria-hidden="true"></i></button>
+            </li>
+            </ul>
+
+            <aside class="summary">
+              <h2 class="summary__title">Resumen</h2>
+              <div class="summary__row">
+                <span>Subtotal</span>
+                <span>$ 15.000</span>
+              </div>
+              <div class="summary__row">
+                <span>Envío</span>
+                <span>A coordinar</span>
+              </div>
+              <div class="summary__row summary__row--total">
+                <span>Total</span>
+                <span>$ 15.000</span>
+              </div>
+              <a class="button button--block" href="https://wa.me/5491122634984?text=Hola%2C%20quisiera%20hacer%20un%20pedido" target="_blank" rel="noreferrer">Finalizar por WhatsApp</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>
+          <img class="footer__logo" src="img/logo-wordmark-claro.webp" alt="Benvenutti" />
+          <p class="footer__tagline">Audaces fortuna iuvat</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Zonas de entrega</h3>
+          <p class="footer__text">Merlo</p>
+          <p class="footer__text">San Antonio de Padua</p>
+        </div>
+        <div>
+          <h3 class="footer__title">Contacto</h3>
+          <a class="footer__link" href="https://wa.me/5491122634984" target="_blank" rel="noreferrer"><i class="bi bi-whatsapp" aria-hidden="true"></i> +54 9 11 2263 4984</a>
+          <a class="footer__link" href="mailto:benvenutti3010@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i> benvenutti3010@gmail.com</a>
+          <p class="footer__text">Lunes a domingo, de 10 a 20 h</p>
+        </div>
+      </div>
+      <div class="container footer__legal">
+        <small>© 2026 Benvenutti</small>
+      </div>
+    </footer>
+  </body>
+</html>
